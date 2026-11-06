@@ -4,7 +4,7 @@
 
 **Lightweight UI library for Roblox scripts** — Rayfield-style dark theme, smooth animations, KeySystem and notifications.
 
-[🇬🇧 English](README.md) | [🇷🇺 Русский](README.ru.md)
+[🇬🇧 English](AmogusUI.README.md) | [🇷🇺 Русский](AmogusUI.README.ru.md)
 
 </div>
 
