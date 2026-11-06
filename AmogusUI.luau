@@ -465,7 +465,6 @@ function AmogusUI.CreateWindow(config)
 
 		function Tab:CreateToggle(tog)
 			tog = tog or {}
-			-- вся строка кликабельна, как в Rayfield
 			local el = Instance.new("TextButton")
 			el.Size = UDim2.new(1, 0, 0, 44)
 			el.BackgroundColor3 = COL_ELEM
@@ -488,7 +487,6 @@ function AmogusUI.CreateWindow(config)
 			lbl.TextXAlignment = Enum.TextXAlignment.Left
 			lbl.Parent = el
 
-			-- трек с ездящим ползунком (Rayfield-style)
 			local track = Instance.new("Frame")
 			track.Size = UDim2.fromOffset(48, 26)
 			track.Position = UDim2.new(1, -54, 0.5, -13)
@@ -763,7 +761,6 @@ function AmogusUI.CreateWindow(config)
 
 		local function unlock()
 			KeyText.Text = ""
-			-- KeySystem уезжает с fade + scale, окно появляется
 			TweenService:Create(KeyScreen, FadeInfo, {BackgroundTransparency = 1}):Play()
 			TweenService:Create(KScale, FadeInfo, {Scale = 0.9}):Play()
 			task.delay(0.3, function()
@@ -800,7 +797,6 @@ function AmogusUI.CreateWindow(config)
 			KeyScreen.Visible = false
 			showWindow()
 		else
-			-- KeySystem появляется с fade + scale
 			KeyScreen.BackgroundTransparency = 1
 			KScale.Scale = 0.9
 			local kStroke = KeyScreen:FindFirstChildOfClass("UIStroke")
