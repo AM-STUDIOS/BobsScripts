@@ -4,7 +4,7 @@
 
 **Лёгкая UI-библиотека для Roblox-скриптов** в стиле Rayfield — тёмная тема, плавные анимации, KeySystem и уведомления.
 
-[🇷🇺 Русский](README.ru.md) | [🇬🇧 English](README.md)
+[🇷🇺 Русский](AmogusUI.README.ru.md) | [🇬🇧 English](AmogusUI.README.md)
 
 </div>
 
