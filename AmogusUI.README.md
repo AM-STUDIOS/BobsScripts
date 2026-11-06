@@ -128,4 +128,4 @@ Creates a tab with the following elements:
 
 ## 📄 License
 
-See [LICENSE](LICENSE).
+See [LICENSE](AmogusUI.LICENSE.ru).
