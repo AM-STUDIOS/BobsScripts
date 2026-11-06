@@ -128,4 +128,4 @@ AmogusUI.Notify({
 
 ## 📄 Лицензия
 
-См. [LICENSE](LICENSE).
+См. [LICENSE](AmogusUI.LICENSE).
