@@ -10,7 +10,7 @@
 
 # 
 
-# Our UI Libraries
+# Our Libraries
 
 - **AmogusUI** — Rayfield-style UI library for Roblox (dark theme, smooth animations, KeySystem, notifications).  
   👉 [More details / Docs](AmogusUI.README.md)
